@@ -27,7 +27,6 @@ contract NFTStake is ERC20{
     }
 
     // puede hacer stake de varios
-    // si ya existe se le agrega 
     function stakeNFT(uint256[] calldata tokenIds) public{
         
         uint256 tokenId;
